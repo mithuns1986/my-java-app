@@ -1,0 +1,140 @@
+java -version 
+cat .ssh/id_rsa.pub 
+git clone git@github.com:mithuns1986/Git.git
+ls
+cd Git/
+git branch 
+git checkout -b branch SAMSUNG-5643 
+git checkout -b SAMSUNG-5643 
+git branch 
+vim ls
+ls
+vim hello.py.txt 
+git add 
+git add .
+git commit -m 'SAMSUNg-5643 - Adding a variable for new branch'
+git push origin SAMSUNG-5643
+yum list maven 
+yum install  maven 
+sudo yum install maven 
+mvn -version 
+sudo yum install maven 
+cd ..
+mvn archetype:generate -Dgroupid=demo -Dartifactid=demomavenproject -DarchetypeArtifactid=maven-archetype-quickstart
+ls
+cd demomavenproject/
+ls
+cd src/
+ls
+cd main/
+ls
+cd ../..
+ls
+vim pom.xml 
+mvn -X clean install 
+mvn validate 
+mvn clean install 
+java -version 
+vim pom.xml 
+mvn clean install 
+vim pom.xml 
+mvn clean install 
+sudo reboot
+ls
+cd demomavenproject/
+ls
+java -version 
+sudo yum install java-17-openjdk-devel
+java -version 
+vim pom.xml 
+mvn clean install
+vim pom.xml 
+mvn clean install
+cd ..
+rm -r demomavenproject/
+ls
+mvn archetype:generate -DgroupId=com.samsung.app -DartifactId=my-java-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+cd my-java-app/
+ls
+vim pom.xml 
+mvn clean install 
+ls 
+cd target/
+ls
+cd ..
+cd src/
+ls
+cd main/
+ls
+cd java/com/samsung/
+ls
+cd app/
+ls
+vim App.java 
+cd 
+cd my-java-app/target/
+ls
+java -jar my-java-app-1.0-SNAPSHOT.jar 
+jar -cv  my-java-app-1.0-SNAPSHOT.jar 
+java -jar my-java-app-1.0-SNAPSHOT.jar 
+#java -cp app.jar com.somepackage.SomeClass
+cd ../src/
+ls
+cd main/java/com/samsung/app/
+ls
+vim App.java 
+cd
+cd my-java-app/
+ls
+cd target/
+java -cp my-java-app-1.0-SNAPSHOT.jar com.samsung.app.App
+ls
+cd
+cd my-java-app/
+ls
+cd src/
+vim main/java/com/samsung/app/App.java 
+cd ../target/
+ls
+java -cp my-java-app-1.0-SNAPSHOT.jar com.samsung.app.App
+cd ..
+mvn clean 
+ls
+mvn clean install 
+cd target/
+java -cp my-java-app-1.0-SNAPSHOT.jar com.samsung.app.App
+ls
+cd ../src/main/java/com/samsung/app/
+vim App.java 
+java -cp my-java-app-1.0-SNAPSHOT.jar com.samsung.app.App
+cd 
+cd my-java-app/
+ls
+cd target/
+java -cp my-java-app-1.0-SNAPSHOT.jar com.samsung.app.App
+cd ..
+mvn clean 
+ls
+mvn clean install 
+cd target/
+java -cp my-java-app-1.0-SNAPSHOT.jar com.samsung.app.App
+cd ..
+mvn clean 
+git init 
+git branch 
+git branch -m development 
+git branch 
+ls
+git status 
+git add .
+git commit -m "SAMSUNG-5678 - Created a mavan project"
+git status 
+git push origin development 
+git push origin development git remote add git@github.com:mithuns1986/my-java-app.git
+git remote add git@github.com:mithuns1986/my-java-app.git
+git remote add origin git@github.com:mithuns1986/my-java-app.git
+git remote -v 
+git push origin development 
+history 
+history | cut -c 8-
+
